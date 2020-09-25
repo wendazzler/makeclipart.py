@@ -1,0 +1,60 @@
+MakeClipart.py HLDD
+
+Infrastructure Needs
+This program runs on Windows 10 using installed programs from the Windows suite.
+
+
+User Interface Layout
+https://app.lucidchart.com/invitations/accept/9fb50a58-10ad-4e40-9342-b280067fcdea
+
+
+Security Considerations
+Given the low stakes situations in which this program will be used, no security
+measures are considered necessary. It will be primarily used on the computer
+of the person who created/downloads it while making teaching resources, so login info and
+other low level securities are unnecessary.
+
+
+Internal Interfaces and Dependencies
+Internally, this program interacts with the command terminal that is native to
+Windows OS. It prompts the user to provide inputs into the command terminal to
+complete all of the steps in this process.
+
+
+External Interfaces and Dependencies
+This program will need to interact with MS Paint and Paint 3D (both are standard
+pre-installed on PCs running Windows 10).
+
+
+Database Architecture
+This program does not establish its own database; rather, all files will be
+stored in the folder system that exists through Windows 10.
+
+
+System Administration Training Plan
+A video tutorial will be created instructing new users how to set coordinates
+for the important locations on their screen, such as "transparent canvas" or
+"magic select". This will be aided by the supplementary program "ScreenResolution.py".
+
+
+General Description of User End-to-End Workflow
+1. User copies an image to their clipboard
+2. User opens command terminal and ensures the directory is correct, dependent
+on where the MakeClipart.py program is stored.
+3. User enters "python makeclipart.py" into the command terminal.
+4. MSPaint is launched.
+5. User does not interact with the mouse while the program temporarily takes
+control of mouse movements. The mouse moves to open Paint3D using a button
+in MSPaint.
+6. Keyboard controls paste the copied image to the canvas.
+7. Mouse moves to select "Magic Select" in Paint3D.
+8. Command terminal prompts user to check the outline on the image to ensure
+it is enclosing the foreground of the image. When user enters "y", program
+continues.
+9. Mouse continues selecting buttons to finish magic select process.
+10. Command terminal prompts the user to select and delete the background
+image that has been separated from the foreground, then press "y" into the
+command terminal.
+11. Mouse and keyboard controls finish processing the image and open the window
+to save the file.
+12. Command terminal prompts user to enter file name for new clipart. 

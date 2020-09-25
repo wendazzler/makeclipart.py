@@ -1,0 +1,8 @@
+MakeClipart.py Reqiurements Document
+
+1. must access clipboard to use a copied image
+2. must open a pre-installed image editing software
+3. must access clipboard to paste image to editing software
+4. must separate background of image from foreground of image
+5. must place foreground of image on a transparent canvas
+6. must save edited image with transparent background to be used as clipart

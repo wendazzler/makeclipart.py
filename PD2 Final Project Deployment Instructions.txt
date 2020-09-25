@@ -1,0 +1,45 @@
+MakeClipart.py Deployment Instructions
+
+1. Open the program file to edit.
+
+2. Replace coordinates used with coordinates that correspond to
+the location of different buttons used through the program, such
+as the Magic Select button, the transparent canvas button, etc. Use
+ScreenResolution.py to find coordinates for these buttons by running
+the program while leaving the mouse untouched at the location
+for which you need coordinates. 
+
+3. After updating coordinates to match the location of different 
+buttons on screen, find an image that would make good clipart. One
+way to determine this is by finding an image with a foreground that
+is a different color from the background. It is also helpful if 
+the background is a solid color, but this is not necessary. 
+
+4. Open the command terminal and ensure it is in the diretory where 
+the program has been saved. 
+
+5. Input "python makeclipart.py" into the command terminal.
+
+6. Sit back while the mouse and keyboard begin inputs to open Paint3D,
+pastes the image to the canvas, and starts the process of cutting out
+the background. 
+
+7. Command terminal will prompt you to check the outline of the 
+magic select tool. Ensure that the entire foreground is selected
+in the box. Then return to the command terminal and input "y".
+
+8. Sit back while the mouse continues the magic select process. 
+
+9. Command terminal will prompt you to select the now separated
+background and resize the image to the canvas. Click on part of 
+the background of the image, then press backspace to delete it. 
+Then click on the remaining foreground from the image and resize 
+to fit the canvas.
+
+10. Return to the command terminal and input "y".
+
+11. Sit back as the mouse changes the canvas to transparent, then starts
+the saving process. 
+
+12. Command terminal will prompt you to enter the file name for 
+your new clipart! 
